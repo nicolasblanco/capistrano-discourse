@@ -3,6 +3,11 @@ Capistrano 3 Discourse
 
 This is my Capistrano 3 script to deploy Discourse.
 
-Discourse path : /home/web/app
+Configuration
+-------------
 
-Deployment using a poll of Thin servers.
+* Discourse path : /home/web/app
+* Rbenv
+* Ruby 2.1
+* Sidekiq
+* 4 Thin servers
