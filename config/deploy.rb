@@ -14,7 +14,7 @@ set :scm, :git
 # set :log_level, :debug
 # set :pty, true
 
-set :linked_files, %w{config/discourse.conf config/thin.yml}
+set :linked_files, %w{config/discourse.conf config/thin.yml config/sidekiq.yml}
 set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
