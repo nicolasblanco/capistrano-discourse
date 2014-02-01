@@ -1,4 +1,0 @@
-export RAILS_ENV=production
-export DISCOURSE_DB_USERNAME=web
-export DISCOURSE_DB_NAME=app_production
-export DISCOURSE_DB_PASSWORD=secret
