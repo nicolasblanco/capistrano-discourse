@@ -5,7 +5,7 @@ set :repo_url, 'https://github.com/discourse/discourse.git'
 
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
-set :branch, "v0.9.8.2"
+set :branch, "v0.9.8.3"
 
 set :deploy_to, '/home/web/app'
 set :scm, :git
@@ -15,7 +15,7 @@ set :scm, :git
 # set :pty, true
 
 set :linked_files, %w{config/discourse.conf config/thin.yml config/sidekiq.yml}
-set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
+set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system plugins public/uploads}
 
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 set :keep_releases, 5
