@@ -5,7 +5,7 @@ set :repo_url, 'https://github.com/discourse/discourse.git'
 
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
-set :branch, "v0.9.8.3"
+set :branch, ENV['BRANCH']
 
 set :deploy_to, '/home/web/app'
 set :scm, :git
