@@ -51,6 +51,8 @@ namespace :deploy do
   #  end
   #end
 
+  after :publishing, :restart
+
   after :finishing, 'deploy:cleanup'
 
 end
